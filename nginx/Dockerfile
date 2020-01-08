@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM alpine:3.10
 
 # Install Nginx.
 RUN \
