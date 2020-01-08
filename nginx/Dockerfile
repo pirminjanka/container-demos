@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM alpine:3.10
+FROM ubuntu:latest
 
 # Install Nginx.
 RUN \
